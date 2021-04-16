@@ -19,7 +19,8 @@ Steps to install -
 
 To Test the application -
 
-Using Front End, Select any Pizza Type and Quantity, and click “Order” button which will trigger the Ribbon-client-gateway’s “/start” endpoint, which in turn, triggers Camunda’s Rest Endpoint to start a workflow instance
+Using Front End, Select any Pizza Type and Quantity, and click “Order” button which will trigger the Ribbon-client-gateway’s “/start” endpoint, which in turn, triggers Camunda’s Rest Endpoint to start a workflow instance.
+
 If you want to directly trigger the API, trigger the below endpoint –
 	Method type: GET
 	Method Endpoint: http://localhost:8888/start?key=OrderProcessing&pizzaType={pizzaType}&quantity={quantity}
